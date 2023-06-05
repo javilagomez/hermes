@@ -246,6 +246,7 @@ func (s *Service) ListFiles(folderID, query string) ([]*drive.File, error) {
 				call = call.PageToken(nextPageToken)
 			}
 			resp, err := call.Do()
+			fmt.Printf("response: %d", resp.HTTPStatusCode)
 			if err != nil {
 				return fmt.Errorf("error listing files: %w", err)
 			}

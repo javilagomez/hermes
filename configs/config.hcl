@@ -4,13 +4,13 @@ base_url = "http://localhost:8000"
 
 // algolia configures Hermes to work with Algolia.
 algolia {
-  application_id            = ""
+  application_id            = "HYKEAXG3EM"
   docs_index_name           = "docs"
   drafts_index_name         = "drafts"
   internal_index_name       = "internal"
   links_index_name          = "links"
   missing_fields_index_name = "missing_fields"
-  search_api_key            = ""
+  search_api_key            = "ddc7cb183f1b94054ec26fc12fdcafba"
   write_api_key             = ""
 }
 

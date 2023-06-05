@@ -146,6 +146,7 @@ func MeHandler(
 				GivenName:     p.Names[0].GivenName,
 				FamilyName:    p.Names[0].FamilyName,
 			}
+			fmt.Print("email: ", resp.Email)
 			if len(p.Photos) > 0 {
 				resp.Picture = p.Photos[0].Url
 			}
